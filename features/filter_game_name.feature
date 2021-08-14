@@ -28,7 +28,7 @@ Feature: Search games by name
      | Splatoon                   | 2016         | Nintendo             | T      |
      | Super Smash Bros. Ultimate | 2018         | Bandai Namco Studios | E      |
      | The Last of Us             | 2013         | Naughty Dog          | M      |
-      Given the user enters the name: 'xyz'
+      Given the user enters the name: 'Bryan'
       When the user search games by name
       Then 0 games will match
       And the following message is displayed: No game with the specified name was found.
